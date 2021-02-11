@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+    <title>LIENS ZOOM BY MARKO</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <style>
+		html,
+		body {
+			height: 100%;
+		}
+
+		body {
+			margin: 0;
+			background: linear-gradient(45deg, #49a09d, #5f2c82);
+			font-family: sans-serif;
+			font-weight: 100;
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		table {
+			width: 800px;
+			border-collapse: collapse;
+			overflow: hidden;
+			box-shadow: 0 0 20px rgba(0,0,0,0.1);
+		}
+
+		th,
+		td {
+			padding: 15px;
+			background-color: rgba(255,255,255,0.2);
+			color: #fff;
+		}
+
+		th {
+			text-align: left;
+		}
+
+		thead {
+			th {
+				background-color: #55608f;
+			}
+		}
+
+		tbody {
+			tr {
+				&:hover {
+					background-color: rgba(255,255,255,0.3);
+				}
+			}
+			td {
+				position: relative;
+				&:hover {
+					&:before {
+						content: "";
+						position: absolute;
+						left: 0;
+						right: 0;
+						top: -9999px;
+						bottom: -9999px;
+						background-color: rgba(255,255,255,0.2);
+						z-index: -1;
+					}
+				}
+			}
+		}
+		a:link {
+		  color: white;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:visited {
+		  color: white;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:hover {
+		  color: cyan;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+		a:active {
+		  color: white;
+		  background-color: transparent;
+		  text-decoration: none;
+		}
+    </style>
+</head>
+<body>
+<br><br><br><br><br>
+<center><p style="color:white;">Voici l'emploi du temps de la semaine<br>Cliquez sur une matière pour ouvrir le lien zoom</p>
+	<div class="container">
+		<table>
+			<thead>
+				<tr>
+					<th> </th>
+					<th>LUNDI</th>
+					<th>MARDI</th>
+					<th>MECREDI</th>
+					<th>JEUDI</th>
+					<th>VENDREDI</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>8h - 10h</td>
+					<td><a href="url">Biologie<br>Cellulaire</a></td>
+					<td><a href="url">Microbio</a></td>
+					<td><a href="url">Résolution<br>Num</a></td>
+					<td><a href="url">TD Proba<br>Stats</a></td>
+					<td><a href="url">TP<br>BC/BM</a></td>
+				</tr>
+				<tr>
+					<td>10h - 12h</td>
+					<td><a href="url">TD Proba<br>Stats</a></td>
+					<td><a href="url">TD Suite<br>Fourier</td>
+					<td><a href="url">TD<br>BC/BM</a></td>
+					<td><a href="url">TD Suite<br>Fourier</a></td>
+					<td><a href="url">TP<br>BC/BM</a></td>
+				</tr>
+				<tr>
+					<td>13h - 15h</td>
+					<td><a href="url">Biochimie<br>Métabo</a></td>
+					<td><a href="url">Génie<br>génétique</a></td>
+					<td><a href="url">TP Réso<br>d'équation</a></td>
+					<td><a href="url">TD Génie<br>Génétique</a></td>
+					<td><a href="url">TP microbio<br>ou GG</a></td>
+				</tr>
+				<tr>
+					<td>15h - 17h</td>
+					<td><a href="url">Suite fonctions<br>Calcul intégral<br>Séries Fourier</a></td>
+					<td><a href="url">TP Résolution<br>d'équation</a></td>
+					<td><a href="url">Proba Intro<br>Stats</a></td>
+					<td><a href="url">TD<br>Microbio</a></td>
+					<td><a href="url">TP microbio<br>ou GG</a></td>
+				</tr>
+				<tr>
+					<td>17h - 19h</td>
+					<td> </td>
+					<td> </td>
+					<td><a href="url">Anglais</a></td>
+					<td> </td>
+					<td> </td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<img src = "https://i.imgur.com/Zs3A3R4.png" />
+</body>
+</html>
